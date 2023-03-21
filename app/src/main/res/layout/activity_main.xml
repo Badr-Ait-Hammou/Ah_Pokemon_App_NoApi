@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundwallpaper"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:onClick="sendMessage"
+                    android:src="@drawable/bulbasor" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="bulbasor" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp"
+                >
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/pok01"
+                    />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="522 KG" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            tools:context=".MainActivity">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/pok1"
+                    />
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="angry" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp">
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/pok2"
+                    />
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="fire" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+
+            android:orientation="horizontal"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp">
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/pok4"
+                    />
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="522 KG" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp">
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/pok3"
+                    />
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="522 KG" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/img10"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:onClick="sendMessage"
+                    android:src="@drawable/pok02" />
+
+                <TextView
+                    android:id="@+id/textView200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="bulbasor" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp"
+                >
+                <ImageView
+                    android:id="@+id/img20"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/pok04"
+                    />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="522 KG" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/img100"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:onClick="sendMessage"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/tex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="bulbasor" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@drawable/border_pok"
+                android:layout_margin="20dp"
+                >
+                <ImageView
+                    android:id="@+id/im"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/pok03"
+                    />
+
+                <TextView
+                    android:id="@+id/textVi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="522 KG" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
